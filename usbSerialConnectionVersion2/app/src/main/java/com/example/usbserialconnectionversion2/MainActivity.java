@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     public UsbSerialDevice serial = null;
     public UsbDeviceConnection usbConnection = null;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
