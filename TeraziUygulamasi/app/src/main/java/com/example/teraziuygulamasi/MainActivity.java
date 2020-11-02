@@ -379,6 +379,7 @@ public class MainActivity extends AppCompatActivity {
 
             //eğer connected fonksiyonu false ise bağlantı yok demek o yüzden bağlantıyı başlatıyorum
             if(!connected){
+                izinAl();
                 connect();
             }
 
